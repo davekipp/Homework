@@ -8,13 +8,13 @@ body {
 h1 {
     text-align: center;
 }
-div {
+section, div {
     position: relative;
     float: left;
     border: solid black 3px;
 }
 
-.section {
+section {
     margin: 0px;
     border: none;
     box-sizing: border-box;
@@ -34,7 +34,7 @@ div {
     border-right: 0px;
 }
 
-.food-desc {
+.menu {
     position: relative;
     float: left;
     padding: 30px;
@@ -59,23 +59,23 @@ div {
 }
 
 @media (min-width: 992px) {
-    .section {
+    section {
         box-sizing: border-box;
         width: 33%;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .section {
+    section {
         box-sizing: border-box;
         width: 50%;
     }
-    .section:last-child {
+    section:last-child {
         width: 100%;
     }
 }
 @media (max-width: 767px) {
-    .section {
+    section {
         box-sizing: border-box;
         width: 100%;
     }
