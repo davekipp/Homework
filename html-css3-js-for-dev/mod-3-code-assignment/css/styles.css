@@ -1,0 +1,82 @@
+
+body {
+    font-size: 16px;
+    color: black;
+    background-color: antiquewhite;
+    font-family: 'Oxygen', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#header-nav, #nav-list, #nav-list li, .navbar-toggle {
+    border: 1px solid black;
+    border-radius: 0px;
+}
+/* -- HEADER --- */
+
+#header-nav {
+    background-color: lightblue;
+    margin: 0px;
+    border: 1px solid black; 
+}
+
+.navbar-brand {
+    text-decoration: none;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:visited {
+    text-decoration: none;
+}
+
+.navbar-brand h1 {
+    color: black;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+#nav-list {
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#nav-list li {
+    color: black;
+    background-color: antiquewhite;
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    border-bottom: 0px solid black;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#nav-list li:first-child {
+    border-top: 3px solid black;
+}
+
+#nav-list li:hover {
+    font-size: 1.2em;
+}
+
+#collapsable-nav {
+    clear: both;
+}
+
+/* --- BODY --- */
+#main-content {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#food-section {
+    background-color: lightblue;
+}
+
+#food-text {
+    height: 1000px;
+}
